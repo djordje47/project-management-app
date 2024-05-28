@@ -2,7 +2,6 @@ import { Link } from '@inertiajs/react';
 
 export default function Pagination({ links, queryParams }) {
   const generateUrl = (linkUrl) => {
-    console.log(linkUrl);
     if (linkUrl === null) {
       return '';
     }
